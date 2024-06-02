@@ -23,6 +23,7 @@ import { MainComponent } from './Layout/main/main.component';
 import { RouterModule } from '@angular/router';
 import { AsideComponent } from './Layout/aside/aside.component';
 import { HeaderComponent } from './Layout/header/header.component';
+import { ListAllTeamsComponent } from './Teams/list-all-teams/list-all-teams.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { HeaderComponent } from './Layout/header/header.component';
     TeamComponent,
     MainComponent,
     AsideComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListAllTeamsComponent
   ],
   imports: [
     BrowserModule,

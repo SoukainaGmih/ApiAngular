@@ -7,26 +7,15 @@ import { Observable } from 'rxjs';
 })
 export class TableService {
 
-  private baseURL = 'https://jsonplaceholder.typicode.com';
+  private baseURL = 'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
 
-/*   getData() {
-    return this.http.get(this.baseURL);
-  } */
-
-  // Get list of all filaries
-  getAllTeams(): Observable<any[]> {
-    return this.http.get<any[]>(`${this.baseURL}/posts`);
+  getAllTeams() {
+    return this.http.get<any[]>(`${this.baseURL}/Teams`);
   }
 
-  // Get details of a specific filarie by ID
-  getTeamById(teamsId: string): Observable<any> {
-    return this.http.get<any>(`${this.baseURL}/posts/1`);
+  getTeamById(teamId: string): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseURL}/Teams/${teamId}`);
   }
-
-  // Get user IDs for a specific filarie
-/*   getUserIdsForFilarie(teamsId: string): Observable<string[]> {
-    return this.http.get<string[]>(`${this.baseURL}/teams/${teamsId}/users`);
-  } */
 }

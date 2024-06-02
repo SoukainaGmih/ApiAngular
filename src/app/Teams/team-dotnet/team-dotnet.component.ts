@@ -3,15 +3,7 @@ import { TableService } from '../../Service/table.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-
-
-export interface UserData {
-  id: string;
-  userId: string;
-  title: any;
-  body: any;
-}
-
+import { TeamMember } from '../../Models/team-data'
 
 @Component({
   selector: 'app-team-dotnet',
@@ -20,19 +12,20 @@ export interface UserData {
 })
 export class TeamDotnetComponent {
 
-  displayedColumns: string[] = ['id', 'userId', 'title', 'body'];
-  dataSource!: MatTableDataSource<UserData>;
-  posts: any;
+  displayedColumns: string[] = ['Nom', 'Prenom', 'numero_de_telephone', 'Email_Personnel', 'Email_JobIntech'];
+  dataSource!: MatTableDataSource<TeamMember>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor(private service: TableService) {
-    this.service.getAllTeams().subscribe((data) => {
-      console.log(data);
-      this.posts = data;
-      // Assign the data to the data source for the table to render
-      this.dataSource = new MatTableDataSource(this.posts);
+    this.getTeamById('TeamDotnet'); 
+  }
 
+  getTeamById(teamId: string) { 
+    this.service.getTeamById(teamId).subscribe((team: any) => {
+      console.log(team);
+      // Assuming team.members contains the members for the team
+      this.dataSource = new MatTableDataSource(team.members);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     });
@@ -47,4 +40,3 @@ export class TeamDotnetComponent {
     }
   }
 }
-
