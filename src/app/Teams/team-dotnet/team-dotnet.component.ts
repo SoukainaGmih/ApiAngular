@@ -27,7 +27,7 @@ export class TeamDotnetComponent {
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor(private service: TableService) {
-    this.service.getData().subscribe((data) => {
+    this.service.getAllTeams().subscribe((data) => {
       console.log(data);
       this.posts = data;
       // Assign the data to the data source for the table to render
@@ -36,10 +36,6 @@ export class TeamDotnetComponent {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     });
-    // Create 100 users
-    // const users = Array.from({ length: 100 }, (_, k) => createNewUser(k + 1));
-    // console.log(this.posts);
-    // console.log('users', users);
   }
 
   applyFilter(event: Event) {

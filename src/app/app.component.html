@@ -1,1 +1,11 @@
-<app-dashboard></app-dashboard>
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+data-sidebar-position="fixed" data-header-position="fixed">
+    <app-aside></app-aside>
+    <div class="body-wrapper">
+        <app-header></app-header>
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

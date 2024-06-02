@@ -19,6 +19,10 @@ import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MainComponent } from './Layout/main/main.component';
+import { RouterModule } from '@angular/router';
+import { AsideComponent } from './Layout/aside/aside.component';
+import { HeaderComponent } from './Layout/header/header.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     TeamJavaComponent,
     TeamCyberComponent,
     TeamDataComponent,
-    TeamComponent
+    TeamComponent,
+    MainComponent,
+    AsideComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     MatFormFieldModule,
     MatInputModule,
     MatSlideToggleModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
