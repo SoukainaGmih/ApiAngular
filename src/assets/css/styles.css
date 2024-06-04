@@ -19,7 +19,13 @@
     background-color: #5d87ff !important;
 }
 
-
 mat-paginator{
     margin-top: 2rem;
+}
+
+tr{
+    cursor: pointer;
+}
+tr:hover{
+    background: #5d87ff;
 }

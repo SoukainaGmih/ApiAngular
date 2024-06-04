@@ -24,6 +24,9 @@ import { RouterModule } from '@angular/router';
 import { AsideComponent } from './Layout/aside/aside.component';
 import { HeaderComponent } from './Layout/header/header.component';
 import { ListAllTeamsComponent } from './Teams/list-all-teams/list-all-teams.component';
+import { InfoTeamIDComponent } from './Teams/info-team-id/info-team-id.component';
+import { MatButtonModule } from '@angular/material/button';
+import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,8 @@ import { ListAllTeamsComponent } from './Teams/list-all-teams/list-all-teams.com
     MainComponent,
     AsideComponent,
     HeaderComponent,
-    ListAllTeamsComponent
+    ListAllTeamsComponent,
+    InfoTeamIDComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +54,9 @@ import { ListAllTeamsComponent } from './Teams/list-all-teams/list-all-teams.com
     MatInputModule,
     MatSlideToggleModule,
     BrowserAnimationsModule,
-    RouterModule
+    RouterModule,
+    MatButtonModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

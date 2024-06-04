@@ -7,6 +7,7 @@ import { ListAllTeamsComponent } from './Teams/list-all-teams/list-all-teams.com
 import { TeamJavaComponent } from './Teams/team-java/team-java.component';
 import { TeamCyberComponent } from './Teams/team-cyber/team-cyber.component';
 import { TeamDataComponent } from './Teams/team-data/team-data.component';
+import { InfoTeamIDComponent } from './Teams/info-team-id/info-team-id.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' }, 
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'team-java', component: TeamJavaComponent },
   { path: 'team-cyber', component: TeamCyberComponent },
   { path: 'team-data', component: TeamDataComponent },
-  { path: 'team', component: ListAllTeamsComponent }
+  { path: 'team', component: ListAllTeamsComponent },
+  { path: 'info', component: InfoTeamIDComponent },
 ];
 
 @NgModule({

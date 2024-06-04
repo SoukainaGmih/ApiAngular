@@ -1,201 +1,260 @@
 {
-    "Teams": [
+  "Teams": [
+    {
+      "id": "TeamDotnet",
+      "name": "Team .NET",
+      "members": [
         {
-        "id": "TeamDotnet",
-        "name": "Team .NET",
-        "members": [
-            {
-                "Nom": "MHAM",
-                "Prenom": "Amine",
-                "numero_de_telephone": "682699908",
-                "Email_Personnel": "amine_mham@outlook.com",
-                "Email_JobIntech": "amine.mham@jobintech-uir.ma"
-              },
-              {
-                "Nom": "KADDARI",
-                "Prenom": "Ziad",
-                "numero_de_telephone": "614055663",
-                "Email_Personnel": "ziadkaddari1@gmail.com",
-                "Email_JobIntech": "ziad.kaddari@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Samid",
-                "Prenom": "El Mehdi",
-                "numero_de_telephone": "659428922",
-                "Email_Personnel": "geekmed17@gmail.com",
-                "Email_JobIntech": "elmehdi.samid@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Benassou",
-                "Prenom": "Souhaib",
-                "numero_de_telephone": "614470588",
-                "Email_Personnel": "benassou.souhaib@outlook.com",
-                "Email_JobIntech": "souhaib.benassou@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Dihaji",
-                "Prenom": "Chaymae",
-                "numero_de_telephone": "644541489",
-                "Email_Personnel": "dihaji.chaymae@gmail.com",
-                "Email_JobIntech": "chaymae.dihaji@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Gmih",
-                "Prenom": "Soukaina",
-                "numero_de_telephone": "625279573",
-                "Email_Personnel": "Soukainaagmih@gmail.com",
-                "Email_JobIntech": "soukaina.gmih@jobintech-uir.ma"
-              },
-              {
-                "Nom": "El morabet",
-                "Prenom": "Rania",
-                "numero_de_telephone": "773227674",
-                "Email_Personnel": "raniaelmorabet9@gmail.com",
-                "Email_JobIntech": "rania.elmorabet@jobintech-uir.ma"
-              },
-              {
-                "Nom": "BERRAHO",
-                "Prenom": "Mohamed",
-                "numero_de_telephone": "679869372",
-                "Email_Personnel": "medberrhou@gmail.com",
-                "Email_JobIntech": "mohamed.berroho@jobintech-uir.ma"
-              },
-              {
-                "Nom": "ACHBANI",
-                "Prenom": "Omar",
-                "numero_de_telephone": "618646886",
-                "Email_Personnel": "omar.achbani61@gmail.com",
-                "Email_JobIntech": "omar.achbani@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Gramir",
-                "Prenom": "Rachida",
-                "numero_de_telephone": "711182238",
-                "Email_Personnel": "rachidagramir@gmail.com",
-                "Email_JobIntech": "rachida.gramir@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Idhamoue",
-                "Prenom": "Abderrahman",
-                "numero_de_telephone": "673123132",
-                "Email_Personnel": "abderrahmane.idhamoue@gmail.com",
-                "Email_JobIntech": "abderrahman.idhamoue@jobintech-uir.ma"
-              },
-              {
-                "Nom": "ATTOUF",
-                "Prenom": "GHITA",
-                "numero_de_telephone": "669035296",
-                "Email_Personnel": "attoufghita92@gmail.com",
-                "Email_JobIntech": "ghita.attouf@jobintech-uir.ma"
-              },
-              {
-                "Nom": "El ATTAOUI",
-                "Prenom": "Oussama",
-                "numero_de_telephone": "628546579",
-                "Email_Personnel": "att.attaoui@gmail.com",
-                "Email_JobIntech": "oussama.elattaoui@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Mezzat",
-                "Prenom": "Mohamed Amine",
-                "numero_de_telephone": "652862101",
-                "Email_Personnel": "mezzatamine2002@gmail.com",
-                "Email_JobIntech": "mohamed-amine.mezzat@jobintech-uir.ma"
-              },
-              {
-                "Nom": "ENNAQADI",
-                "Prenom": "Aymane",
-                "numero_de_telephone": "609989326",
-                "Email_Personnel": "aymaneennaqadi20@gmail.com",
-                "Email_JobIntech": "aymane.ennaqadi@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Ait Syad",
-                "Prenom": "Fatima Zahra",
-                "numero_de_telephone": "620916313",
-                "Email_Personnel": "aitsyad.fatimazahra@outlook.com",
-                "Email_JobIntech": "fatimazahra.aitsyad@jobintech-uir.ma"
-              },
-              {
-                "Nom": "elghiouane",
-                "Prenom": "souhail",
-                "numero_de_telephone": "681195587",
-                "Email_Personnel": "souhailelghiouane@outlook.com",
-                "Email_JobIntech": "sohail.elghiouane@jobintech-uir.ma"
-              },
-              {
-                "Nom": "Boudrar",
-                "Prenom": "Mohamed",
-                "numero_de_telephone": "612450649",
-                "Email_Personnel": "boudrarmed2003@gmail.com",
-                "Email_JobIntech": "mohamed.boudrar@jobintech-uir.ma"
-              },
-              {
-                "Nom": "OUFKIR",
-                "Prenom": "Abdelhakim",
-                "numero_de_telephone": "684997488",
-                "Email_Personnel": "abdelhakimoufkir2000@gmail.com",
-                "Email_JobIntech": "abdelhakim.oufkir@jobintech-uir.ma"
-              }
-            ]
-      },
-      {
-        "id": "TeamJava",
-        "name": "Team Java",
-        "members": [
-            {
-              "Nom": "Smith",
-              "Prenom": "John",
-              "numero_de_telephone": "682699908",
-              "Email_Personnel": "John_Smith@outlook.com",
-              "Email_JobIntech": "John.Smith@jobintech-uir.ma"
-            },
-            {
-              "Nom": "Doe",
-              "Prenom": "Jane",
-              "numero_de_telephone": "682699909",
-              "Email_Personnel": "Jane_Doe@outlook.com",
-              "Email_JobIntech": "Jane.Doe@jobintech-uir.ma"
-            },
-            {
-              "Nom": "Garcia",
-              "Prenom": "Maria",
-              "numero_de_telephone": "682699910",
-              "Email_Personnel": "Maria_Garcia@outlook.com",
-              "Email_JobIntech": "Maria.Garcia@jobintech-uir.ma"
-            },
-            {
-              "Nom": "Kim",
-              "Prenom": "Jin",
-              "numero_de_telephone": "682699911",
-              "Email_Personnel": "Jin_Kim@outlook.com",
-              "Email_JobIntech": "Jin.Kim@jobintech-uir.ma"
-            },
-            {
-              "Nom": "Chen",
-              "Prenom": "Wei",
-              "numero_de_telephone": "682699912",
-              "Email_Personnel": "Wei_Chen@outlook.com",
-              "Email_JobIntech": "Wei.Chen@jobintech-uir.ma"
-            }
-          ]
-          
-      },
-      {
-        "id": "TeamData",
-        "name": "Team Data",
-        "members": []
-      },
-      {
-        "id": "TeamCyber",
-        "name": "Team Cyber",
-        "members": []
-      },
-      {
-        "id": "TeamInfa",
-        "name": "Team Infa",
-        "members": []
-      }
-    ]
-  }
-  
+          "Nom": "MHAM",
+          "Prenom": "Amine",
+          "numero_de_telephone": "682699908",
+          "Email_Personnel": "amine_mham@outlook.com",
+          "Email_JobIntech": "amine.mham@jobintech-uir.ma",
+          "student_id": "TNET001",
+          "id_cin": "CIN001",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "KADDARI",
+          "Prenom": "Ziad",
+          "numero_de_telephone": "614055663",
+          "Email_Personnel": "ziadkaddari1@gmail.com",
+          "Email_JobIntech": "ziad.kaddari@jobintech-uir.ma",
+          "student_id": "TNET002",
+          "id_cin": "CIN002",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Samid",
+          "Prenom": "El Mehdi",
+          "numero_de_telephone": "659428922",
+          "Email_Personnel": "geekmed17@gmail.com",
+          "Email_JobIntech": "elmehdi.samid@jobintech-uir.ma",
+          "student_id": "TNET003",
+          "id_cin": "CIN003",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Benassou",
+          "Prenom": "Souhaib",
+          "numero_de_telephone": "614470588",
+          "Email_Personnel": "benassou.souhaib@outlook.com",
+          "Email_JobIntech": "souhaib.benassou@jobintech-uir.ma",
+          "student_id": "TNET004",
+          "id_cin": "CIN004",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Dihaji",
+          "Prenom": "Chaymae",
+          "numero_de_telephone": "644541489",
+          "Email_Personnel": "dihaji.chaymae@gmail.com",
+          "Email_JobIntech": "chaymae.dihaji@jobintech-uir.ma",
+          "student_id": "TNET005",
+          "id_cin": "CIN005",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Gmih",
+          "Prenom": "Soukaina",
+          "numero_de_telephone": "625279573",
+          "Email_Personnel": "Soukainaagmih@gmail.com",
+          "Email_JobIntech": "soukaina.gmih@jobintech-uir.ma",
+          "student_id": "TNET006",
+          "id_cin": "CIN006",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "El morabet",
+          "Prenom": "Rania",
+          "numero_de_telephone": "773227674",
+          "Email_Personnel": "raniaelmorabet9@gmail.com",
+          "Email_JobIntech": "rania.elmorabet@jobintech-uir.ma",
+          "student_id": "TNET007",
+          "id_cin": "CIN007",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "BERRAHO",
+          "Prenom": "Mohamed",
+          "numero_de_telephone": "679869372",
+          "Email_Personnel": "medberrhou@gmail.com",
+          "Email_JobIntech": "mohamed.berroho@jobintech-uir.ma",
+          "student_id": "TNET008",
+          "id_cin": "CIN008",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "ACHBANI",
+          "Prenom": "Omar",
+          "numero_de_telephone": "618646886",
+          "Email_Personnel": "omar.achbani61@gmail.com",
+          "Email_JobIntech": "omar.achbani@jobintech-uir.ma",
+          "student_id": "TNET009",
+          "id_cin": "CIN009",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Gramir",
+          "Prenom": "Rachida",
+          "numero_de_telephone": "711182238",
+          "Email_Personnel": "rachidagramir@gmail.com",
+          "Email_JobIntech": "rachida.gramir@jobintech-uir.ma",
+          "student_id": "TNET010",
+          "id_cin": "CIN010",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Idhamoue",
+          "Prenom": "Abderrahman",
+          "numero_de_telephone": "673123132",
+          "Email_Personnel": "abderrahmane.idhamoue@gmail.com",
+          "Email_JobIntech": "abderrahman.idhamoue@jobintech-uir.ma",
+          "student_id": "TNET011",
+          "id_cin": "CIN011",
+          "address": "8Rabat"
+        },
+        {
+          "Nom": "ATTOUF",
+          "Prenom": "GHITA",
+          "numero_de_telephone": "669035296",
+          "Email_Personnel": "attoufghita92@gmail.com",
+          "Email_JobIntech": "ghita.attouf@jobintech-uir.ma",
+          "student_id": "TNET012",
+          "id_cin": "CIN012",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "El ATTAOUI",
+          "Prenom": "Oussama",
+          "numero_de_telephone": "628546579",
+          "Email_Personnel": "att.attaoui@gmail.com",
+          "Email_JobIntech": "oussama.elattaoui@jobintech-uir.ma",
+          "student_id": "TNET013",
+          "id_cin": "CIN013",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Mezzat",
+          "Prenom": "Mohamed Amine",
+          "numero_de_telephone": "652862101",
+          "Email_Personnel": "mezzatamine2002@gmail.com",
+          "Email_JobIntech": "mohamed-amine.mezzat@jobintech-uir.ma",
+          "student_id": "TNET014",
+          "id_cin": "CIN014",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "ENNAQADI",
+          "Prenom": "Aymane",
+          "numero_de_telephone": "609989326",
+          "Email_Personnel": "aymaneennaqadi20@gmail.com",
+          "Email_JobIntech": "aymane.ennaqadi@jobintech-uir.ma",
+          "student_id": "TNET015",
+          "id_cin": "CIN015",
+          "address": "12Rabat"
+        },
+        {
+          "Nom": "Ait Syad",
+          "Prenom": "Fatima Zahra",
+          "numero_de_telephone": "620916313",
+          "Email_Personnel": "aitsyad.fatimazahra@outlook.com",
+          "Email_JobIntech": "fatimazahra.aitsyad@jobintech-uir.ma",
+          "student_id": "TNET016",
+          "id_cin": "CIN016",
+          "address": "1Rabat"
+        },
+        {
+          "Nom": "elghiouane",
+          "Prenom": "souhail",
+          "numero_de_telephone": "681195587",
+          "Email_Personnel": "souhailelghiouane@outlook.com",
+          "Email_JobIntech": "sohail.elghiouane@jobintech-uir.ma",
+          "student_id": "TNET017",
+          "id_cin": "CIN017",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "Boudrar",
+          "Prenom": "Mohamed",
+          "numero_de_telephone": "612450649",
+          "Email_Personnel": "boudrarmed2003@gmail.com",
+          "Email_JobIntech": "mohamed.boudrar@jobintech-uir.ma",
+          "student_id": "TNET018",
+          "id_cin": "CIN018",
+          "address": "Rabat"
+        },
+        {
+          "Nom": "OUFKIR",
+          "Prenom": "Abdelhakim",
+          "numero_de_telephone": "684997488",
+          "Email_Personnel": "abdelhakimoufkir2000@gmail.com",
+          "Email_JobIntech": "abdelhakim.oufkir@jobintech-uir.ma",
+          "student_id": "TNET019",
+          "id_cin": "CIN019",
+          "address": "Rabat"
+        }
+      ]
+    },
+    {
+      "id": "TeamJava",
+      "name": "Team Java",
+      "members": [
+        {
+          "student_id": 1,
+          "Nom": "Smith",
+          "Prenom": "John",
+          "gender": "Male",
+          "numero_de_telephone": "682699908",
+          "Email_Personnel": "John_Smith@outlook.com",
+          "Email_JobIntech": "John.Smith@jobintech-uir.ma",
+          "address": "The city of residence",
+          "id_cin": "S123456"
+        },
+        {
+          "Nom": "Doe",
+          "Prenom": "Jane",
+          "numero_de_telephone": "682699909",
+          "Email_Personnel": "Jane_Doe@outlook.com",
+          "Email_JobIntech": "Jane.Doe@jobintech-uir.ma"
+        },
+        {
+          "Nom": "Garcia",
+          "Prenom": "Maria",
+          "numero_de_telephone": "682699910",
+          "Email_Personnel": "Maria_Garcia@outlook.com",
+          "Email_JobIntech": "Maria.Garcia@jobintech-uir.ma"
+        },
+        {
+          "Nom": "Kim",
+          "Prenom": "Jin",
+          "numero_de_telephone": "682699911",
+          "Email_Personnel": "Jin_Kim@outlook.com",
+          "Email_JobIntech": "Jin.Kim@jobintech-uir.ma"
+        },
+        {
+          "Nom": "Chen",
+          "Prenom": "Wei",
+          "numero_de_telephone": "682699912",
+          "Email_Personnel": "Wei_Chen@outlook.com",
+          "Email_JobIntech": "Wei.Chen@jobintech-uir.ma"
+        }
+      ]
+    },
+    {
+      "id": "TeamData",
+      "name": "Team Data",
+      "members": []
+    },
+    {
+      "id": "TeamCyber",
+      "name": "Team Cyber",
+      "members": []
+    },
+    {
+      "id": "TeamInfa",
+      "name": "Team Infa",
+      "members": []
+    }
+  ]
+}

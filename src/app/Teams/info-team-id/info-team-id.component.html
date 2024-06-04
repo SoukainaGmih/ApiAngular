@@ -1,0 +1,125 @@
+<h1 mat-dialog-title class="m-0">Detail Information</h1>
+<!-- <div mat-dialog-content>
+  <p><strong>ID:</strong> {{data.id}}</p>
+  <p><strong>Nom:</strong> {{data.Nom}}</p>
+  <p><strong>Prenom:</strong> {{data.Prenom}}</p>
+  <p><strong>Numéro de téléphone:</strong> {{data.numero_de_telephone}}</p>
+  <p><strong>Email Personnel:</strong> {{data.Email_Personnel}}</p>
+  <p><strong>Email JobIntech:</strong> {{data.Email_JobIntech}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div> -->
+
+
+<!-- <div class="row">
+  <div class="col bg-secondary ">col</div>
+  <div class="col bg-secondary ">col</div>
+  <div class="w-100"></div>
+  <div class="col bg-secondary ">col</div>
+  <div class="col bg-secondary ">col</div>
+</div> -->
+
+<div class="student-profile py-3 bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent text-center">
+            <img class="profile_img" src="https://source.unsplash.com/600x300/?student" alt="student dp">
+            <h3>{{data.Nom}}  {{data.Prenom}}</h3>
+          </div>
+          <div class="card-body">
+            <p class="mb-0 py-2"><strong class="pe-1">Student ID:</strong>{{data.student_id}}</p>
+            <p class="mb-0 py-2"><strong class="pe-1">Team:</strong>Full Stack {{data.teamIds}}</p>
+            <p class="mb-0 py-2"><strong class="pe-1">Promo:</strong>3</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="pe-1"><svg width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-copy"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" /><path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" /></svg></i>General Information</h3>
+          </div>
+          <div class="card-body pt-0">
+            <table class="table table-bordered">
+<!--               <tr>
+                <th width="30%">Roll</th>
+                <td width="2%">:</td>
+                <td>125</td>
+              </tr>
+              <tr>
+                <th width="30%">Academic Year	</th>
+                <td width="2%">:</td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <th width="30%">Gender</th>
+                <td width="2%">:</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <th width="30%">Religion</th>
+                <td width="2%">:</td>
+                <td>Group</td>
+              </tr>
+              <tr>
+                <th width="30%">blood</th>
+                <td width="2%">:</td>
+                <td>B+</td>
+              </tr> -->
+            </table>
+          </div>
+        </div>
+          <div style="height: 26px"></div>
+        <!-- <div class="card shadow-sm">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="mb-0"><i class="pe-1"><svg width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-copy"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" /><path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" /></svg></i>Other Information</h3>
+          </div>
+          <div class="card-body pt-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .card-body {
+    padding: 15px;
+  }
+  .student-profile .card {
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+.table-bordered td, .table-bordered th{
+  border: 1px solid #dee2e6;
+}
+</style>
